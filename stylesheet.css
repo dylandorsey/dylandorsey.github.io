@@ -1,49 +1,63 @@
+*{
+margin: 0px;
+padding: 0px 0px 0px 4px;
+color: #262626
+}
+
+
 header {
   position: relative;
   width: 100%;
-  height: 75px;
+  height: 100%;
   margin-top: 8px;
   background-color: #F5F5F5;
   margin-bottom: 8px;
- 
 }
 
-div {
-border-radius: 5px;
+
+.name {
+font-weight: bold;
+font-family: Arial, sans-serif;
+font-size: 30px;
+margin: 0px;
+padding: 0px 0px 0px 0px;
+color: #262626;
 }
+
 
 .contentbody {
   position: relative;
   width: 100%;
   margin-top: 5px;
-  background-color: #f2f2f2;
+  background-color: #F5F5F5;
   margin-bottom: 5px;
+  padding: 8px 0px 8px 0px;
+  color: #262626;
  }
 
-#name {
-  margin-left: 5px;
-  padding-top: 10px;
-  font-size: 28px;
-  font-family: Arial, sans-serif;
-  color: #404040;
-}
+ li{
+margin-left:18px;
+ }
 
-#email {
-  margin-left: 10px;
-  padding-top: 2px;
-  font-size: 15px;
-  font-family: Arial, sans-serif;
-  color: #0099ff;
-}
+ #contact {
+  padding: 0px 0px 0px 0px;
+  color: #262626
+ }
 
-#email:hover{
-text-decoration: underline;
-color: #404040;
+a:{
+font-weight:bold;
+font-family: Arial, sans-serif;
+font-size: 15px;
+color: #262626;
 }
 
 a:hover{
 font-weight:bold;
 text-decoration: underline;
+font-family: Arial, sans-serif;
+font-size: 15px;
+margin: 0px;
+padding: 0px 0px 0px 0px;
 color: #0099ff;
 }
 
@@ -51,22 +65,33 @@ p {
 font-weight: normal;
 font-family: Arial, sans-serif;
 font-size: 15px;
+margin: 0px;
+padding: 0px 0px 12px 0px;
+color: #262626;
 }
 
 h1 {
 font-weight: bold;
 font-family: Arial, sans-serif;
 font-size: 19px;
+margin: 0px;
+padding: 0px 0px 4px 0px;
+color: #262626;
 }
 
 h2 {
 font-weight: bold;
 font-family: Arial, sans-serif;
 font-size: 16px;
+padding: 0px 0px 0px 0px;
+color: #262626;
 }
 
 h3 {
 font-weight: bold;
 font-family: Arial, sans-serif;
 font-size: 15px;
+margin: 0px;
+padding: 0px 0px 0px 0px;
+color: #262626;
 }
